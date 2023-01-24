@@ -28,14 +28,13 @@
                     <td>{{$item->apellidoP}}</td>
                     <td>{{$item->cedulaP}}</td>
                     <td>{{$item->edadP}}</td>
-                    <td class="d:flex justify-content-between align-items-center">
-                        <a href="{{route('persona.edit',$item->id)}}" class="btn btn-primary d:block w-100">Edit</a>
-                        <form action="{{route('persona.delete',$item->id)}}" method="POST" class="d:block w-100">
+                     <td class="d-flex justify-content-center">
+                        <a href="{{route('persona.edit',$item->id)}}" class="btn btn-primary ">Edit</a>
+                        <form action="{{route('persona.delete',$item->id)}}" method="POST" >
                             @method('DELETE')
                             @csrf
-                            <button type="submit" class="btn btn-danger ">Delete</button>
+                            <button type="submit" class="btn btn-danger mx-2 ">Delete</button>
                         </form>
-
                     </td>
                 </tr>
                 @empty
