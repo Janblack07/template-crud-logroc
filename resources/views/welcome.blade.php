@@ -28,7 +28,7 @@
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-6">
+          <div class="col-sm-12">
             @yield('contenido')
           </div><!-- /.col -->
           <div class="col-sm-6">

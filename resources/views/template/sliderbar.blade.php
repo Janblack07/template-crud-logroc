@@ -37,9 +37,17 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="pages/tables/simple.html" class="nav-link">
+              <a href="{{route('persona.create')}}" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Ingresar Persona</p>
+                <p> Ingresar Persona </p>
+              </a>
+            </li>
+           </ul>
+           <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="{{route('persona.ver')}}" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p> Ver Persona  </p>
               </a>
             </li>
            </ul>
